@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="app.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+	<div>
+		<h3 class="text-center">Calculator</h3>
+	</div>
+<div class="main border border-danger ">
+	
+	<div class="row m-2 ">
+		<input class="border-warning text-warning" type="text" name="" id="output">
+	</div>
+	<div class="row m-1 ">
+		<button id="btnfull" onclick="clearbtn()"  class="clear border border-dark text-danger">C</button>
+	</div>
+	<div class="row m-1">
+		<button id="btn" onclick="getNumber('7')"  class="border border-dark text-danger">7</button>
+		<button id="btn" onclick="getNumber('8')"  class="border border-dark text-danger">8</button>
+		<button id="btn" onclick="getNumber('9')"  class="border border-dark text-danger">9</button>
+		<button id="btn" onclick="getNumber('*')"  class="red border border-dark text-white">x</button>
+	</div>
+	<div class="row m-1">
+		<button id="btn" onclick="getNumber('4')"  class="border border-dark text-danger">4</button>
+		<button id="btn" onclick="getNumber('5')"  class="border border-dark text-danger">5</button>
+		<button id="btn" onclick="getNumber('6')"  class="border border-dark text-danger">6</button>
+		<button id="btn" onclick="getNumber('-')"  class="red border border-dark text-white">-</button>
+	</div>
+	<div class="row m-1">
+		<button id="btn" onclick="getNumber('1')"  class="border border-dark text-danger">1</button>
+		<button id="btn" onclick="getNumber('2')"  class="border border-dark text-danger">2</button>
+		<button id="btn" onclick="getNumber('3')"  class="border border-dark text-danger">3</button>
+		<button id="btn" onclick="getNumber('+')"  class="red border border-dark text-white">+</button>
+	</div>
+	<div class="row m-1">
+		<button id="btn" onclick="getNumber('.')"  class="border border-dark text-danger">.</button>
+		<button id="btn" onclick="getNumber('00')"  class="border border-dark text-danger">00</button>
+		<button id="btn" onclick="getNumber('%')"  class="red border border-dark text-white">%</button>
+		<button id="btn" onclick="getNumber('/')"  class="red border border-dark text-white">/</button>
+	</div>
+	<div class="row m-1">
+		<button id="btnhalf" onclick="getNumber('0')"  class="border border-dark text-danger">0</button>
+		<button id="btnhalf" onclick="show()"  class="green border border-dark text-white">=</button>
+	</div>
+</div>
+
+<div class="footer text-center">
+	<br>
+	<p>&copy 2020 | All right reserved by Zahra</p>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
